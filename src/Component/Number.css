@@ -1,0 +1,8 @@
+.NumberButton {
+    border: 1px solid black;
+    background-color: #4f92ff;
+    color: #FFF;
+    width: 70px;
+    height: 70px;
+    outline: none;
+}
