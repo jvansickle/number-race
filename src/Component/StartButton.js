@@ -1,9 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class StartButton extends Component {
-    render() {
-        return (
-            <button onClick={this.props.click}>Start!</button>
-        );
-    }
+export default function StartButton(props) {
+    return <button onClick={props.click}>Start!</button>;
 }
